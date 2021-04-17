@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/pikachu_background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/activity_main_imageView_pokemon_project"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_marginTop="60dp"
+        app:srcCompat="@drawable/pokemon_pok_proj_img" />
+
+
+    <ImageView
+        android:id="@+id/activity_main_imageView_openclassrooms"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/pokemon_openclassrooms"
+        />
+
+
+    <EditText
+        android:id="@+id/activity_main_enter_mail"
+        android:singleLine="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="6dp"
+        android:layout_marginTop="450dp"
+        android:hint="Enter your mail please"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:background="#1186FB"
+        android:textColor="#FDD825"
+        android:textSize="20sp"
+        />
+
+    <EditText
+        android:id="@+id/activity_main_enter_password"
+        android:inputType="textPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:background="#1186FB"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:hint="password please"
+        android:textColor="#FDD825"
+        android:textSize="20sp"/>
+
+    <Button
+        android:id="@+id/activity_main_go_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="#1186FB"
+        android:text="GO"
+        android:textSize="30sp"
+        android:background="#FDC802"
+        android:layout_marginTop="15dp"
+
+        />
+
+
+
+</LinearLayout>

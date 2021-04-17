@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FDD825"
+    tools:context=".MainActivity"
+    android:id="@+id/myDynamicLayout">
+
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        app:srcCompat="@drawable/pokeminlist" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="match_parent"
+        android:layout_height="136dp"
+        app:srcCompat="@drawable/pikachu_hey" />
+
+    <Button
+        android:id="@+id/activity_main_pokemon_list_button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CANARTICHO"
+        android:textColor="#1186FB"
+        android:textSize="30sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginHorizontal="30sp"
+        android:background="#FDAD02"
+        />
+
+    <Button
+        android:id="@+id/activity_main_pokemon_list_button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DODRIO"
+        android:textColor="#FDD825"
+        android:textSize="30sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginHorizontal="30sp"
+        android:background="#1186FB"
+        />
+
+    <Button
+        android:id="@+id/activity_main_pokemon_list_button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="FLAGADOSS"
+        android:textColor="#1186FB"
+        android:textSize="30sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginHorizontal="30sp"
+        android:background="#FDAD02"
+        />
+
+    <Button
+        android:id="@+id/activity_main_pokemon_list_button4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="GALOPA"
+        android:textColor="#FDD825"
+        android:textSize="30sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginHorizontal="30sp"
+        android:background="#1186FB"
+        />
+
+    <Button
+        android:id="@+id/activity_main_pokemon_list_button5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LAMANTINE"
+        android:textColor="#1186FB"
+        android:textSize="30sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginHorizontal="30sp"
+        android:background="#FDAD02"
+        />
+
+    <Button
+        android:id="@+id/activity_main_pokemon_list_button6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MAGNETON"
+        android:textColor="#FDD825"
+        android:textSize="30sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginHorizontal="30sp"
+        android:background="#1186FB"
+        />
+
+</LinearLayout>
